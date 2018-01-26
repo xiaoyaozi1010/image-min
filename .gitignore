@@ -29,7 +29,7 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
+# Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
 
 # Dependency directories
@@ -57,3 +57,19 @@ typings/
 # dotenv environment variables file
 .env
 
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# output/uploads/temps files
+/output
+/uploads
+/temps
+
+# vscode
+.vscode

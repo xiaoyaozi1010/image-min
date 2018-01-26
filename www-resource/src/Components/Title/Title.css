@@ -1,0 +1,11 @@
+.title {
+    text-align: center;
+    font-size: 16px;
+}
+.title h1 {
+    font-weight: normal;
+    color: #F7753C;
+}
+.title .sub-title {
+    color: #8FB38F;
+}

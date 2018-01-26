@@ -1,0 +1,12 @@
+.process-bar__container {
+    margin: 16px 0;
+}
+.process-bar__container .ant-row > div {
+    text-align: left;
+}
+a.link {
+    color: #F7753C;
+}
+a:hover {
+    text-decoration: underline;
+}
