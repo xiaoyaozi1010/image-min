@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 // use static
-app.use('/', express.static('www-resource/build'))
+app.use('/static', express.static('www-resource/build/static'))
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
